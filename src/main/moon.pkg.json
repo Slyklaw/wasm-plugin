@@ -1,0 +1,11 @@
+{
+  "is-main": true,
+  "import": [],
+  "pre-build": [
+    {
+      "input": "art.jpg",
+      "output": "art.mbt",
+      "command": ":embed --binary -i $input -o $output"
+    }
+  ]
+}
